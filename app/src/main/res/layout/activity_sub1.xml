@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+        </android.support.v7.widget.Toolbar>
+
+        <HorizontalScrollView
+            android:id="@+id/sv_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/ll_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+                <!-- ImageView, Button 등을 가로로 배치 -->
+
+                <Button
+                    android:id="@+id/sub1_button1"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:elevation="5dp"
+                    android:text="전투복류" />
+
+                <Button
+                    android:id="@+id/sub1_button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="정복류" />
+
+                <Button
+                    android:id="@+id/sub1_button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="일용품류" />
+
+                <Button
+                    android:id="@+id/sub1_button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="개인용품" />
+
+                <Button
+                    android:id="@+id/sub1_button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="신발류" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ImageView
+            android:id="@+id/sub1_imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            app:srcCompat="@drawable/sub11" />
+
+
+        <TextView
+            android:id="@+id/sub1_textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="전투복 상의" />
+
+        <TextView
+            android:id="@+id/sub1_MoneyView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="27000원" />
+
+        <Button
+            android:id="@+id/sub1_button6"
+            android:layout_width="match_parent"
+            android:layout_height="20dip" />
+
+        <ImageView
+            android:id="@+id/sub1_imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sub12" />
+
+        <TextView
+            android:id="@+id/sub1_textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="전투복 하의" />
+
+        <TextView
+            android:id="@+id/sub1_MoneyView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="25000원" />
+
+        <Button
+            android:id="@+id/sub1_button7"
+            android:layout_width="match_parent"
+            android:layout_height="20dip"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/sub1_imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sub13" />
+
+        <TextView
+            android:id="@+id/sub1_textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="전투모" />
+
+        <TextView
+            android:id="@+id/sub1_MoneyView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="7000원" />
+
+        <Button
+            android:id="@+id/sub1_button8"
+            android:layout_width="match_parent"
+            android:layout_height="20dip"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/sub1_imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sub14" />
+
+        <TextView
+            android:id="@+id/sub1_textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="요대" />
+
+        <TextView
+            android:id="@+id/sub1_MoneyView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2000원" />
+
+        <Button
+            android:id="@+id/sub1_button9"
+            android:layout_width="match_parent"
+            android:layout_height="20dip"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</ScrollView>

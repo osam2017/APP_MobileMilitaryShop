@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">모바일 군장SHOP</string>
+    <string name="idText">ID</string>
+    <string name="pwText">Password</string>
+    <string name="idDes">ID</string>
+    <string name="pwDes">Password</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnJoin">Sign in</string>
+    <string name="title_activity_login111">Sign in</string>
+
+</resources>

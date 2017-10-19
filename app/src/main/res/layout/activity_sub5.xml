@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+        </android.support.v7.widget.Toolbar>
+
+        <HorizontalScrollView
+            android:id="@+id/sv_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/ll_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+                <!-- ImageView, Button 등을 가로로 배치 -->
+
+                <Button
+                    android:id="@+id/sub5_button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="전투복류" />
+
+                <Button
+                    android:id="@+id/sub5_button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:elevation="0dp"
+                    android:text="정복류" />
+
+                <Button
+                    android:id="@+id/sub5_button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:elevation="0dp"
+                    android:text="일용품류" />
+
+                <Button
+                    android:id="@+id/sub5_button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:elevation="0dp"
+                    android:text="개인용품" />
+
+                <Button
+                    android:id="@+id/sub5_button5"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:elevation="5dp"
+                    android:text="신발류" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ImageView
+            android:id="@+id/sub5_imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            app:srcCompat="@drawable/sub51" />
+
+        <TextView
+            android:id="@+id/sub5_textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="신형전투화" />
+
+        <TextView
+            android:id="@+id/sub5_MoneyView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="77000원" />
+
+        <Button
+            android:id="@+id/sub5_button6"
+            android:layout_width="match_parent"
+            android:layout_height="20dip" />
+
+        <ImageView
+            android:id="@+id/sub5_imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sub52" />
+
+        <TextView
+            android:id="@+id/sub5_textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="구두" />
+
+        <TextView
+            android:id="@+id/sub5_MoneyView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="29000원" />
+
+        <Button
+            android:id="@+id/sub5_button7"
+            android:layout_width="match_parent"
+            android:layout_height="20dip"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/sub5_imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sub53" />
+
+        <TextView
+            android:id="@+id/sub5_textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="조종화" />
+
+        <TextView
+            android:id="@+id/sub5_MoneyView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="79000원" />
+
+        <Button
+            android:id="@+id/sub5_button8"
+            android:layout_width="match_parent"
+            android:layout_height="20dip"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/sub5_imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sub54" />
+
+        <TextView
+            android:id="@+id/sub5_textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="슬리퍼" />
+
+        <TextView
+            android:id="@+id/sub5_MoneyView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="3000원" />
+
+        <Button
+            android:id="@+id/sub5_button9"
+            android:layout_width="match_parent"
+            android:layout_height="20dip"
+            android:layout_weight="1"
+            android:text="장바구니에 담기" />
+
+    </LinearLayout>
+
+</ScrollView>
